@@ -9,7 +9,7 @@ public class negativeNumber {
         }
         for(int i:arr){
             if(i<0){
-                System.out.println(i+" ");
+                System.out.print(i+" ");
             }
         }
     }
