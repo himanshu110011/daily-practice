@@ -42,6 +42,9 @@ public class linkedlist2{
         newNode.next=temp.next;
         temp.next=newNode;
      }
+     else{
+        System.out.println("element not found");
+     }
     }
     void addLast(int d){
      Node newNode=new Node(d);
@@ -60,7 +63,6 @@ public class linkedlist2{
         l.addFirst(5);
         l.addFirst(20);
         l.addLast(5);
-        
         l.addMid(4,20);
         l.display();
     }
